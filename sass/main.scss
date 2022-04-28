@@ -1,6 +1,14 @@
 //utils
+@import "./utils/reset";
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/mixins";
 @import "./utils/animation";
 @import "./utils/placeholder";
+
+//base
+@import "./base/_base";
+
+//components
+@import "./components/homepage/header";
+@import "./components/homepage/hero";

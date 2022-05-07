@@ -1,0 +1,75 @@
+.hero {
+  position: relative;
+  background-color: $mobile-menu-bgc;
+}
+.menu__item {
+  border-top: 1px solid #e18298;
+  border-bottom: 1px solid #e18298;
+}
+
+.menu__link {
+  display: block;
+  padding: 12px;
+  @include fonts(14px, 1.29);
+  font-weight: 700;
+  color: $main-link-color;
+}
+.menu__link--current {
+  color: $accent-link-color;
+}
+
+// .menu-mobile__group {
+//   margin-top: auto;
+// }
+// .mobile__auth-nav {
+//   margin-bottom: 64px;
+// }
+// .mobile__auth__item {
+//   margin-bottom: 32px;
+// }
+// .mobile__auth__tel {
+//   @include fonts(34px, 1.18, 0.02em, 500);
+//   color: $link-accent;
+//   transition: $transition-color;
+
+//   &:hover,
+//   &:focus {
+//     color: $link-accent;
+//   }
+//   @media screen and (max-width: 479px) {
+//     @include fonts(26px, 1.16, 0.02em, 500);
+//   }
+// }
+// .mobile__auth__email {
+//   @include fonts(24px, 1.16, 0.02em, 500);
+
+//   color: $auth-link;
+//   transition: $transition-color;
+
+//   &:hover,
+//   &:focus {
+//     color: $link-accent;
+//   }
+// }
+// .mobile__socials {
+//   @include flex();
+//   justify-content: flex-start;
+//   @media screen and (max-width: 479px) {
+//     flex-wrap: wrap;
+//   }
+// }
+// .mobile__item:not(:last-child) {
+//   margin-right: 10px;
+//   padding-right: 10px;
+//   border-right: 1px solid rgba(33, 33, 33, 0.2);
+// }
+
+// .mobile__link {
+//   @include flex();
+//   @include fonts(18px, 1.22, 0.02em, 500);
+//   color: $link-accent;
+// }
+
+// .mobile__link--content:after {
+//   content: none;
+// }

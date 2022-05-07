@@ -66,7 +66,54 @@
     </header>
     <main>
       <section class="section hero">
-        <div class="container"></div>
+        <div class="container">
+          <div class="mobile-menu">
+            <button
+              class="menu__btn--icon is-active"
+              type="button"
+              data-menu-button
+            >
+              <svg
+                class="menu-btn__icon"
+                width="14"
+                height="14"
+                role="button"
+                aria-expanded="false"
+                aria-controls="menu-mobile"
+                aria-label="Переключатель мобильного меню"
+              >
+                <use class="menu-btn__icon-open" href=""></use>
+                <use
+                  class="menu-btn__icon-close"
+                  href="./images/icons.svg#close"
+                ></use>
+              </svg>
+            </button>
+            <button class="menu__btn" type="button">Buy now</button>
+
+            <div class="menu__wrapper" id="menu-mobile" data-menu>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="./index.html" class="menu__link menu__link--current"
+                    >Home</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./portfolio.html" class="menu__link">About us</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/Контакты" class="menu__link">How it’s made?</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/Контакты" class="menu__link">Our products</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/Контакты" class="menu__link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="section">
         <div class="container"></div>

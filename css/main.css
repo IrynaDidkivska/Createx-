@@ -1,1 +1,169 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  outline: 2px solid palevioletred;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.container {
+  outline: 2px solid yellowgreen;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.hero {
+  position: relative;
+  background-color: #e17992;
+}
+
+.menu__item {
+  border-top: 1px solid #e18298;
+  border-bottom: 1px solid #e18298;
+}
+
+.menu__link {
+  display: block;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.menu__link--current {
+  color: #d41443;
+}
+
+.mobile-menu {
+  width: 250px;
+  height: 100vh;
+}
+
+.menu__btn--icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 26px;
+  border: none;
+  background-color: transparent;
+}
+
+.menu__btn {
+  min-width: 210px;
+  margin-bottom: 19px;
+  padding-left: 50px;
+  padding-right: 70px;
+  height: 44px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.31;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  color: #d41443;
+  background-color: #ffffff;
+  border-radius: 22px;
+  cursor: pointer;
+  border: none;
+}
+
+.hero {
+  position: relative;
+  background-color: #e17992;
+}
+
+.menu__item {
+  border-top: 1px solid #e18298;
+  border-bottom: 1px solid #e18298;
+}
+
+.menu__link {
+  display: block;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.menu__link--current {
+  color: #d41443;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

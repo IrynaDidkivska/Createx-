@@ -1,0 +1,114 @@
+@import "../base/mobile-menu__nav";
+.mobile-menu {
+  width: 250px;
+  height: 100vh;
+}
+// .menu-btn {
+//   position: relative;
+//   display: inline-flex;
+
+//   padding: 0;
+//   color: $menu-btn;
+//   background-color: transparent;
+//   border: none;
+//   outline: transparent;
+//   cursor: pointer;
+//   z-index: 99;
+//   transition: color $timing-function;
+
+//   &:hover &__icon-open,
+//   &:focus &__icon-open {
+//     fill: $btn-main-bgc;
+//   }
+//   @include mq(tablet) {
+//     display: none;
+//   }
+
+//   &.is-active &__icon-open {
+//     opacity: 1;
+//     fill: $link-main;
+//     transition: opacity $timing-function, fill $timing-function;
+//   }
+//   &.is-active &__icon-close {
+//     opacity: 0;
+//   }
+
+//   &__icon-close {
+//     opacity: 1;
+//     fill: $link-main;
+//     transition: opacity $timing-function, fill $timing-function;
+//   }
+
+//   &__icon-open {
+//     opacity: 0;
+//   }
+// }
+// .menu-btn__icon {
+//   fill: currentColor;
+
+//   transition: fill $timing-function;
+
+//   &:hover .menu-btn__icon-open,
+//   &:hover .menu-btn__icon-close {
+//     fill: $link-accent;
+//   }
+// }
+.menu__btn--icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 26px;
+  border: none;
+  background-color: transparent;
+}
+
+.menu__btn {
+  min-width: 210px;
+  margin-bottom: 19px;
+  padding-left: 50px;
+  padding-right: 70px;
+  height: 44px;
+
+  font-family: inherit;
+  @include fonts(16px, 1.31);
+  font-weight: 700;
+
+  color: #d41443;
+  background-color: #ffffff;
+  border-radius: 22px;
+
+  cursor: pointer;
+  border: none;
+}
+// .menu-mobile {
+//   position: absolute;
+//   overflow-y: scroll;
+//   z-index: 10;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   padding: 48px 40px;
+
+//   display: none;
+//   text-align: left;
+//   background-color: $bgc-mobile;
+
+//   transform: translateX(100%);
+//   visibility: hidden;
+//   transition: transform $timing-function, visibility $timing-function;
+//   pointer-events: none;
+
+//   &.is-open {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     display: flex;
+//     flex-direction: column;
+//     transform: translateX(0);
+//     visibility: visible;
+//     pointer-events: initial;
+//   }
+// }

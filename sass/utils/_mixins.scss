@@ -12,11 +12,6 @@
 //   justify-content: $jc;
 //   align-items: $ai;
 // }
-@mixin fonts($fz, $lh: 1.75, $ls: 0.04em) {
-  font-size: $fz;
-  line-height: $lh;
-  letter-spacing: $ls;
-}
 
 // Media query mixin
 $mobile: 480px;
